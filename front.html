@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="front.css">
+</head>
+<body>
+   <div class="container-fluid slidegallery" id="popular">
+
+    <div class="mySlides fade mySlidesx">
+      <div class="numbertext">1 / 3</div>
+      <img src="slide 2.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade mySlidesx">
+      <div class="numbertext">2 / 3</div>
+      <img src="slide 3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade mySlidesx">
+      <div class="numbertext">3 / 3</div>
+      <img src="slide 4.jpg" style="width:100%">
+    </div>
+    
+    </div>
+    <br>
+    <table>
+        <thead>
+          <tr>
+            <th>Project Title</th>
+            <th>Domain</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tbody class="tbl-accordion-header">
+          <tr>
+            <td>
+              <a data-toggle="toggle"><strong>Certificate repository system</strong></a>
+            </td>
+            <td>Front End and Back End</td>
+            <td>Certificate repository system is built in django
+                framework especially for students to collect all
+                there certificates and documents at one place.</td>
+          </tr>
+        </tbody>
+        <tbody class="tbl-accordion-body">
+          <tr>
+          <tr>
+            <td><strong>Category:</strong></td>
+            <td>Clothes</td>
+            <td><strong>Group:</strong></td>
+          </tr>
+          </tr>
+          <tr>
+            <td><strong>Profit</strong></td>
+            <td>$ 20.00</td>
+          </tr>
+        </tbody>
+        <tbody class="tbl-accordion-header">
+          <tr>
+            <td>
+              <a data-toggle="toggle"><strong>Citymall</strong></a>
+            </td>
+            <td>Web Development</td>
+            <td>Citymall is a full stack website based on pythons
+                Django framework. Users can browse the entire mall
+                chilling at their home.
+                </td>
+          </tr>
+        </tbody>
+        <tbody class="tbl-accordion-body">
+          <tr>
+            <td><strong>Category:</strong></td>
+            <td>Furniture</td>
+            <td><strong>Group:</strong></td>
+          </tr>
+          </tr>
+        </tbody>
+        </tbody>
+      </table>
+    <section class="order" id="order">
+
+        <h1 class="heading"> <span>Feedback</span> Form </h1>
+    
+        <div class="row">
+            
+            <div class="image">
+                <img src="feedback.jpg" alt="">
+            </div>
+    
+            <form action="" method="POST" id="contactform">
+    
+                <div class="inputBox">
+                    <input type="text" placeholder=" first name" id="firstname">
+                    <input type="text" placeholder="last name" id="lastname">
+                </div>
+    
+                <div class="inputBox">
+                    <input type="number" placeholder="contact number" id="contnumber">
+                    <input type="email" placeholder="email" id="emailadd">
+                </div>
+    
+                <textarea placeholder="message" name="" id="message" cols="30" rows="10"></textarea>
+    
+                <input type="submit" value="submit" class="btn">
+    
+            </form>
+    
+        </div>
+    
+    </section>
+<script src="front.js"></script>  
+<script src="https://smtpjs.com/v3/smtp.js"></script> 
+</body>
+</html>
